@@ -1,0 +1,27 @@
+body {
+	background-color: #000; /* Black background */
+	font-family: Arial, sans-serif; /* Modern font */
+	color: #fff; /* White text color */
+}
+
+header {
+	text-align: left; /* Center the text */
+	padding: 20px; /* Add some padding */
+}
+
+h1 {
+	font-size: 20px; /* Adjust font size for mobile */
+	margin: 0; /* Remove margin */
+}
+
+main {
+	display: flex; /* Use flexbox for centering */
+	justify-content: center; /* Center the chatbot horizontally */
+	align-items: center; /* Center the chatbot vertically */
+	padding: 20px; /* Add some padding */
+}
+
+/* Add some spacing between the text and the chatbot */
+header + main {
+	margin-top: 20px;
+}
